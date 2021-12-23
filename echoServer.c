@@ -14,7 +14,7 @@ int main (int argc, char *argv[]) {
   char buf[MAX_LINE];
   int len;
 
-  // intialize reveiver
+  // intialize receiver
   if(SWP_recvInit(SERVER_PORT)<0)
     printf ("recvinit failed\n");
 
